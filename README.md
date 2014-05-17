@@ -1,3 +1,6 @@
+![](http://www.simplicitesoftware.com/logos/logo250.png)
++++
+
 Simplicit&eacute;&reg; Android&reg; API
 =======================================
 

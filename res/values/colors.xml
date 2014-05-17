@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="simplicite_head_bg">#19B7D3</color>
+    <color name="simplicite_head_text">#FFFFFF</color>
+    
+    <color name="simplicite_title_bg">#000000</color>
+    <color name="simplicite_title_text">#19B7D3</color>
+    
+    <color name="simplicite_help_bg">#FFE66D</color>
+    <color name="simplicite_help_text">#000000</color>
+    
+    <color name="simplicite_fieldreq">#FF0000</color>
+    <color name="simplicite_fieldref">#FFE66D</color>
+
+</resources>

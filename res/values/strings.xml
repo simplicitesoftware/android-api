@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="simplicite_title">Simplicité(R)</string>
+    <string name="simplicite_empty"></string>
+    
+	<string name="simplicite_debug">true</string>
+    <string name="simplicite_timeout">30</string>
+    
+    <string name="simplicite_ok">OK</string>
+    <string name="simplicite_first">&lt;&lt;</string>
+    <string name="simplicite_prev">&lt;</string>
+    <string name="simplicite_next">&gt;</string>
+    <string name="simplicite_last">&gt;&gt;</string>
+    <string name="simplicite_search"><![CDATA[&63;]]></string>
+    <string name="simplicite_create">+</string>
+    <string name="simplicite_save">=</string>
+    <string name="simplicite_delete">-</string>
+    
+    <string name="simplicite_baseUrlDefault">http://10.0.2.2:8080/</string>
+    <string name="simplicite_appNameDefault">sandbox</string>
+    <string name="simplicite_loginDefault">designer</string>
+    <string name="simplicite_passwordDefault"></string>
+    
+    <string name="simplicite_baseUrlHint">The server base URL</string>
+    <string name="simplicite_appNameHint">Your application name</string>
+    <string name="simplicite_loginHint">Your login</string>
+    <string name="simplicite_passwordHint">Your password</string>
+</resources>

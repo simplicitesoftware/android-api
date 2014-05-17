@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<ImageView style="@style/simplicite_logo" android:id="@+id/simplicite_logo" android:contentDescription="@string/simplicite_title" />
+	
+    <EditText
+        android:id="@+id/baseUrlEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/simplicite_baseUrlHint"
+        android:autoText="false"
+        android:inputType="textUri" />
+    
+    <EditText
+        android:id="@+id/appNameEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/simplicite_appNameHint"
+        android:autoText="false"
+        android:inputType="textNoSuggestions" />
+
+    <EditText
+        android:id="@+id/loginEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/simplicite_loginHint"
+        android:autoText="false"
+        android:inputType="textNoSuggestions" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:hint="@string/simplicite_passwordHint"
+        android:autoText="false"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/connectionButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simplicite_ok" />
+    
+</LinearLayout>

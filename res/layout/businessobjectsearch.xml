@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchMainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<ImageView style="@style/simplicite_logo" android:id="@+id/simplicite_logo" android:contentDescription="@string/simplicite_title" />
+    <TextView style="@style/simplicite_header" android:id="@+id/simplicite_title" />
+    <TextView style="@style/simplicite_help" android:id="@+id/simplicite_help" android:visibility="gone" />
+    	
+	<TableLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	    <TableRow>
+	        
+    		<Button
+			    android:id="@+id/searchButton"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    android:text="@string/simplicite_search"
+			    android:layout_weight="1" />
+    		<Button
+			    android:id="@+id/createButton"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    android:text="@string/simplicite_create"
+			    android:layout_weight="1" />
+    		
+    	</TableRow>
+    	
+	</TableLayout>	
+	
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+		<LinearLayout
+		    android:id="@+id/searchLayout"
+	    	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" />
+    
+    </ScrollView>
+
+</LinearLayout>

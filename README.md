@@ -7,7 +7,7 @@ Simplicit&eacute;&reg; Android&reg; API
 Introduction
 ------------
 
-This is the Android&reg; API for the [Simplicit&ecute;&reg; platform](http://www.simplicitesoftware.com).
+This is the Android&reg; API for the [Simplicit&eacute;&reg; platform](http://www.simplicitesoftware.com).
 
 TODO
 ----
